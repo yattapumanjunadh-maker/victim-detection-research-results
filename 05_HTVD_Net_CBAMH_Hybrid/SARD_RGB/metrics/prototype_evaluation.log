@@ -1,0 +1,17 @@
+Processed 100/570 test images
+Processed 200/570 test images
+Processed 300/570 test images
+Processed 400/570 test images
+Processed 500/570 test images
+
+=== HTVD-Net prototype evaluation ===
+Checkpoint: outputs/single_image_smoke/last.pt
+Images evaluated: 570
+Ground-truth boxes: 732
+Predicted boxes: 1098
+IoU threshold: 0.5
+Confidence threshold: 0.5
+Precision: 0.0428
+Recall:    0.0642
+F1:        0.0514
+NOTE: Prototype metrics only; not mAP and not comparable to YOLO results.

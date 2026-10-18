@@ -1,0 +1,14 @@
+{
+  "model": "EfficientDet-D0",
+  "checkpoint_epoch": 9,
+  "dataset": "SARD-labelled Roboflow",
+  "split": "test",
+  "images": 570,
+  "ground_truth_objects": 732,
+  "predictions": 57000,
+  "COCO_AP_50_95": 0.5490581310501402,
+  "COCO_AP_50": 0.8983220464572269,
+  "COCO_AP_75": 0.6134109631895638,
+  "COCO_AR_100": 0.625,
+  "note": "COCO evaluation on resized 512x512 images. Compare with other models only after aligning evaluation settings."
+}

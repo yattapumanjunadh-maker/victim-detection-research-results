@@ -1,0 +1,19 @@
+{
+  "model": "EfficientDet-D0",
+  "checkpoint_epoch": 9,
+  "dataset": "SARD-labelled Roboflow",
+  "split": "validation",
+  "test_images": 1144,
+  "ground_truth_instances": 1463,
+  "predicted_instances": 1354,
+  "confidence_threshold": 0.25,
+  "iou_threshold": 0.5,
+  "true_positives": 1240,
+  "false_positives": 114,
+  "false_negatives": 223,
+  "precision": 0.9158050221565731,
+  "recall": 0.8475734791524265,
+  "f1": 0.8803691870784524,
+  "mean_matched_iou": 0.8141291672332073,
+  "metric_note": "Preliminary fixed-threshold diagnostic for a two-epoch smoke model; not COCO mAP and not a final benchmark."
+}

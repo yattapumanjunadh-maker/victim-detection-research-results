@@ -1,0 +1,11 @@
+{
+  "split": "test",
+  "checkpoint": "research_results/fasterrcnn_sard_full/best_train_loss.pt",
+  "images": 570,
+  "ground_truth_boxes": 732,
+  "predictions": 1909,
+  "mAP50_95": 0.5728252507505865,
+  "mAP50": 0.8980029094362305,
+  "mAP75": 0.652959274813407,
+  "precision_max_recall": 0.6221311475409836
+}

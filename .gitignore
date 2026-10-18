@@ -1,0 +1,23 @@
+# Model checkpoints and exported model weights
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+
+# Large archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# Python and training caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+wandb/
+
+# Large inference prediction dumps
+**/predictions.json

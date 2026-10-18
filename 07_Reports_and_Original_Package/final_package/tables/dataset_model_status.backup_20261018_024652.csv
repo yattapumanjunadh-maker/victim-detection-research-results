@@ -1,0 +1,15 @@
+Dataset,Modality,Model,Epochs,Result_Type,Status,Notes
+FLIR,thermal,YOLOv11n,50.0,Measured,Complete,Existing validation results
+FLIR,thermal,Faster R-CNN,10,Measured COCO-style validation,Evaluated,10 epochs; validation split 1144 images; AP50=0.673247; AP50:95=0.333932.
+FLIR,thermal,RT-DETR,2.0,Measured,Incomplete,Two logged epochs only; interim validation results
+FLIR,thermal,HTVD-Net plus CBAMH,,Pending,Not evaluated,Hybrid training and evaluation pipeline incomplete
+SARD,RGB,YOLOv11n,50.0,Measured,50 epochs completed,Best checkpoint validation output; test split not evaluated here
+SARD,RGB,Faster R-CNN,10,Measured test evaluation,Not run / dataset unverified,"Separate SARD-labelled Roboflow results exist, but are not assumed to represent this dataset."
+SARD,RGB,EfficientDet-D0,20,Measured test evaluation,Not run / dataset unverified,"Separate SARD-labelled Roboflow results exist, but are not assumed to represent this dataset."
+SARD,RGB,RT-DETR,9,Measured validation and preliminary test,Training in progress,Resumed 50-epoch training; old 9-epoch metrics are interim. Final held-out test evaluation remains pending.
+SARD,RGB,HTVD-Net plus CBAMH,2,Prototype diagnostic,Prototype only,Same RGB image supplied to both branches; no validated paired RGB-thermal benchmark.
+SARD-labelled Roboflow,RGB,YOLOv11n,50.0,Measured,Complete,"Held-out test split; 570 images, 732 instances"
+SARD-labelled Roboflow,RGB,Faster R-CNN ResNet50 FPN,10.0,Measured diagnostic,Complete,"Validation split, 1144 images; confidence 0.5; IoU matching threshold 0.5; F1 0.9092; mean matched IoU 0.8205"
+SARD-labelled Roboflow,RGB,Faster R-CNN ResNet50 FPN,10.0,Measured COCO evaluation,Complete,"Held-out test split, 570 images; confidence 0.5; IoU matching threshold 0.5; F1 0.8889; mean matched IoU 0.8165; COCO-style evaluation; mAP75=0.6530; 570 test images"
+SARD-labelled Roboflow,RGB,EfficientDet-D0,20,Measured test evaluation,Evaluated,Held-out test evaluation exists; see measured_and_interim_results.csv.
+FLIR,thermal,EfficientDet-D0,10,Measured COCO-style validation,Evaluated,Best checkpoint epoch 4; 1144 validation images; AP50=0.523778; AP50:95=0.221905.

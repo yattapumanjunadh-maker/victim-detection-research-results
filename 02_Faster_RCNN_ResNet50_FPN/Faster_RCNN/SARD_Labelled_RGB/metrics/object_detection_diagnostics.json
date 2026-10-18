@@ -1,0 +1,16 @@
+{
+  "model": "Faster R-CNN ResNet50 FPN",
+  "split": "held-out test",
+  "test_images": 570,
+  "ground_truth_objects": 732,
+  "confidence_threshold": 0.5,
+  "iou_matching_threshold": 0.5,
+  "TP": 656,
+  "FP": 88,
+  "FN": 76,
+  "precision": 0.8817204301075269,
+  "recall": 0.8961748633879781,
+  "F1": 0.888888888888889,
+  "mean_matched_IoU": 0.8165397201833815,
+  "note": "Single-class object-detection diagnostics; not COCO mAP. No true-negative count is defined."
+}

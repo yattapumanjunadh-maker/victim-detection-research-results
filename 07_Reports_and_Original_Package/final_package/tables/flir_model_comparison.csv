@@ -1,0 +1,5 @@
+Model,Epochs,Checkpoint_epoch,Precision,Recall,mAP50,mAP50_95,Evaluation_type,Status,Notes
+YOLOv11n,50,50,0.81444,0.71188,0.80112,0.46716,Detector validation metrics,Completed 50 epochs,FLIR validation split; no independent test split in current dataset setup.
+Faster R-CNN ResNet50 FPN,10,10,0.3466545565,0.7684563758,0.673247,0.333932,COCO-style validation metrics,Completed 10 epochs,"10 epochs; best available last checkpoint; 1144 validation images; 4470 ground-truth instances; COCO AP50=0.673247, AP50:95=0.333932, AP75=0.295996, AR100=0.451521. Fixed-threshold diagnostic is reported separately."
+EfficientDet-D0,10,4,0.6174099946,0.5140939597,0.523778,0.221905,COCO-style validation metrics,Completed 10 epochs,"10 training epochs; best validation-loss checkpoint epoch 4; 1144 validation images; 4470 ground-truth instances; COCO AP50=0.523778, AP50:95=0.221905, AP75=0.157104, AR100=0.359239. Fixed-threshold diagnostic is reported separately."
+RT-DETR-L,2,2,0.789,0.659,0.730,0.363,Fresh detector validation metrics,Incomplete,"Fresh validation: 1144 images, 4470 instances; 24.5 ms inference per image; only two logged training epochs, so this remains preliminary."

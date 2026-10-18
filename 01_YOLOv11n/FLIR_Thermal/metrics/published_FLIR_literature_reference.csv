@@ -1,0 +1,4 @@
+model,published_mAP50_percent,source,metric,not_our_experiment
+Faster R-CNN,52.67,"LA-YOLO paper, 2025",Published FLIR mAP@0.5,YES
+DETR,49.79,"LA-YOLO paper, 2025",Published FLIR mAP@0.5,YES
+EfficientDet,46.66,"LA-YOLO paper, 2025",Published FLIR mAP@0.5,YES

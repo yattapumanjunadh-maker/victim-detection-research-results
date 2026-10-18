@@ -1,0 +1,8 @@
+runs/detect/val-2/BoxF1_curve.png
+runs/detect/val-2/BoxPR_curve.png
+runs/detect/val-2/BoxP_curve.png
+runs/detect/val-2/BoxR_curve.png
+runs/detect/val/BoxF1_curve.png
+runs/detect/val/BoxPR_curve.png
+runs/detect/val/BoxP_curve.png
+runs/detect/val/BoxR_curve.png

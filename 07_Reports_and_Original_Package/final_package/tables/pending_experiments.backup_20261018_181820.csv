@@ -1,0 +1,7 @@
+Dataset,Modality,Model,Epochs,Precision,Recall,mAP50,mAP50_95,Result_Type,Status,Notes
+FLIR,thermal,RT-DETR,2.0,0.79117,0.65749,0.73037,0.36295,Measured,Incomplete,Two logged epochs only; interim validation results
+FLIR,thermal,HTVD-Net plus CBAMH,,,,,,Pending,Not evaluated,Hybrid training and evaluation pipeline incomplete
+SARD,RGB,Faster R-CNN,,,,,,Pending,Not run / dataset unverified,Do not substitute SARD-labelled Roboflow results unless dataset identity is verified.
+SARD,RGB,EfficientDet-D0,,,,,,Pending,Not run / dataset unverified,Do not substitute SARD-labelled Roboflow results unless dataset identity is verified.
+SARD,RGB,RT-DETR,,,,,,Pending,Training in progress,Historical interim metrics from the earlier checkpoint; training resumed from epoch 10 toward 50 total epochs. Final metrics and held-out test evaluation remain pending.
+SARD,RGB,HTVD-Net plus CBAMH,,,,,,Pending,Prototype only,Not a validated multimodal result; RGB image supplied to both branches and reliable paired RGB-thermal data is unverified.

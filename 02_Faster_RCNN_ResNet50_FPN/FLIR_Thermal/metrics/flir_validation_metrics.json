@@ -1,0 +1,22 @@
+{
+  "model": "Faster R-CNN ResNet50 FPN",
+  "dataset": "FLIR person YOLO-format",
+  "split": "validation",
+  "checkpoint": "research_results/fasterrcnn_flir_full/last.pt",
+  "checkpoint_epoch": 10,
+  "checkpoint_training_loss": 0.2726647207510894,
+  "images_evaluated": 1144,
+  "ground_truth_instances": 4470,
+  "predicted_instances": 9909,
+  "true_positives": 3435,
+  "false_positives": 6474,
+  "false_negatives": 1035,
+  "confidence_threshold": 0.5,
+  "iou_threshold": 0.5,
+  "precision": 0.34665455646382076,
+  "recall": 0.7684563758389261,
+  "f1": 0.47778009597329435,
+  "mean_matched_iou": 0.7463572270311469,
+  "evaluation_seconds": 30.27,
+  "metric_note": "Fixed-confidence, greedy one-to-one IoU diagnostic. These are validation diagnostics, not COCO mAP or held-out test results."
+}

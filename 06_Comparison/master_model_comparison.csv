@@ -1,0 +1,10 @@
+Model,Dataset,Evaluation split,Precision,Recall,mAP50_or_AP50,mAP50_95_or_COCO_AP,Notes
+YOLOv11n,FLIR Thermal,Validation,0.81444,0.71188,0.80112,0.46716,50 epochs
+YOLOv11n,SARD-labelled RGB,Held-out test,0.942,0.867,0.929,0.613,50 epochs
+Faster R-CNN ResNet-50 FPN,FLIR Thermal,Validation,0.34665,0.76846,,0.33393,10 epochs; AP50=0.67325
+Faster R-CNN ResNet-50 FPN,SARD-labelled RGB,Held-out test,0.8817,0.8962,0.898,0.5728,10 epochs; AP50=.8980; fixed-threshold P/R differ from COCO AP
+EfficientDet-D0,FLIR Thermal,Validation,0.61741,0.51409,0.52378,0.2219,10 epochs; AP50=.52378
+EfficientDet-D0,SARD-labelled RGB,Held-out test,0.919762,0.845628,0.898322,0.549058,20 logged epochs; best validation loss at epoch 9
+RT-DETR-L,FLIR Thermal,Preliminary validation,0.79117,0.65749,0.73037,0.36295,Only 2 epochs; training incomplete
+RT-DETR ResNet-50,SARD-labelled RGB,Held-out test,0.873,0.68,0.763,0.415,50 epochs total; inference 29.3 ms/image
+HTVD-Net + CBAMH,FLIR + RGB,Prototype diagnostic,0.0428,0.0642,,,2-epoch smoke test; same RGB image fed to both branches; not a valid multimodal result
